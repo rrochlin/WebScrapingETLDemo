@@ -29,7 +29,7 @@ def check_proxies():
             print(proxy)
 
 
-for _ in range(10):
+for _ in range(32):
     threading.Thread(target=check_proxies).start()
 
 with open("valid_proxies.pkl", "wb") as file:
