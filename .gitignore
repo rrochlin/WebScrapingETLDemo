@@ -1,2 +1,8 @@
 env_soup/
-beautiful_soup/
+scrapyenv/
+__*
+*.ppk
+SQL_Secrets.txt
+rootkey.csv
+test.py
+test_SQL.py
